@@ -27,8 +27,6 @@ namespace POSApplication.FrontEnd
 
         #endregion
 
-
-
         public TextBox TxtKodeSupplier
         {
             get { return txtKodeSupplier; }
