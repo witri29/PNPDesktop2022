@@ -1,4 +1,6 @@
-namespace POSApplication.ForntEnd
+using POSApplication.ForntEnd;
+
+namespace POSApplication.FrontEnd
 {
     internal static class Program
     {
@@ -11,7 +13,7 @@ namespace POSApplication.ForntEnd
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FormCalculator());
+            Application.Run(FormPembelian.Instance());
         }
     }
 }
